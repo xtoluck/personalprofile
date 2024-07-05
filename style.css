@@ -29,12 +29,11 @@ li {
 }
 
 /* Media Queries for Tablet and Desktop */
-.profileImg {
+/* .profileImg {
   width: 100%;
   height: auto;
-}
+} */
 
-/* 
 @media (max-width: 600px) {
   .profileImg {
     width: 100%;
@@ -69,7 +68,7 @@ li {
     padding: 0;
     box-sizing: border-box;
   }
-} */
+}
 
 /* =============================================================================== */
 
