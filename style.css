@@ -72,7 +72,7 @@ li {
 
 /* =============================================================================== */
 
-@media (max-width: 600px) {
+@media (max-width: 900px) {
   .hngK,
   .hngS,
   .hngW {
@@ -90,13 +90,13 @@ li {
   }
 }
 
-@media (max-width: 402px) {
+@media (max-width: 700px) {
   .hngK,
   .hngS,
   .hngW {
     width: 25%;
     height: auto;
-    padding: 6px 3px;
+    padding: 16px 13px;
   }
   /*body {
     margin: 0;
