@@ -76,14 +76,14 @@ li {
   .hngK,
   .hngS,
   .hngW {
-    width: 170px;
-    height: 15px;
+    width: 25%;
+    height: auto;
   }
-  body {
+  /* body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-  }
+  } */
   li {
     text-align: justify;
     text-justify: inter-word;
@@ -94,12 +94,13 @@ li {
   .hngK,
   .hngS,
   .hngW {
-    width: 170px;
-    height: 15px;
+    width: 25%;
+    height: auto;
+    padding: 6px 3px;
   }
-  body {
+  /*body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-  }
+  } */
 }
