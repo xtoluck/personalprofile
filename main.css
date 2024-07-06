@@ -1,0 +1,187 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.wrapper {
+  padding: 40px;
+}
+
+li {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.hngW,
+.hngK,
+.hngS {
+  background-color: rgb(235, 204, 204);
+  width: 100%;
+  height: 30px;
+  border-radius: 20px;
+  margin: auto;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+/* Media Queries for Tablet and Desktop */
+@media (max-width: 900px) {
+  .profileImg {
+    width: 266px;
+    height: 266px;
+  }
+  .name,
+  .email,
+  .dateTime {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 530px) {
+  .profileImg {
+    width: 100px;
+    height: 100px;
+  }
+  #dateTime {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 450px) {
+  .profileImg {
+    width: 133px;
+    height: 133px;
+  }
+  .name,
+  .email,
+  .dateTime {
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 225px) {
+  .profileImg {
+    width: 70px;
+    height: 70px;
+  }
+  .name,
+  .email,
+  .dateTime {
+    font-size: 5px;
+  }
+}
+
+@media (max-width: 116px) {
+  .profileImg {
+    width: 35px;
+    height: 35px;
+  }
+  .name,
+  .email,
+  .dateTime {
+    font-size: 3px;
+  }
+}
+
+@media (max-width: 90px) {
+  .profileImg {
+    width: 35px;
+    height: 35px;
+  }
+  .name,
+  .email,
+  .dateTime {
+    font-size: 2px;
+  }
+}
+/* =============================================================================== */
+
+@media (max-width: 900px) {
+  .hngK,
+  .hngS,
+  .hngW {
+    width: 85px;
+    padding: 0px;
+    height: auto;
+    margin: 10px;
+    font-size: 8px;
+  }
+  h2.g {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 450px) {
+  .hngK,
+  .hngS,
+  .hngW {
+    width: 60px;
+    padding: 0px;
+    height: auto;
+    margin: 6px;
+  }
+  p.k,
+  p.s {
+    font-size: 7px;
+  }
+  h2.g {
+    font-size: 14px;
+  }
+  #dateTime {
+    font-size: 10px;
+    font-weight: bold;
+    color: brown;
+  }
+}
+
+@media (max-width: 345px) {
+  .hngK,
+  .hngS,
+  .hngW {
+    width: 60px;
+    padding: 0px;
+    height: auto;
+    margin: 6px;
+  }
+  p.k,
+  p.s {
+    font-size: 7px;
+  }
+  h2.g {
+    font-size: 9px;
+  }
+}
+/* 
+@media (max-width: 225px) {
+  .hngK,
+  .hngS,
+  .hngW {
+    width: 35%;
+    padding: 0px;
+    height: auto;
+    margin: 4px;
+  }
+}
+
+@media (max-width: 116px) {
+  .hngK,
+  .hngS,
+  .hngW {
+    width: 25%;
+    padding: 0px;
+    height: auto;
+    margin: 4px;
+  }
+}
+
+@media (max-width: 90px) {
+  .hngK,
+  .hngS,
+  .hngW {
+    width: 20%;
+    padding: 0px;
+    height: auto;
+    margin: 4px;
+  }
+} */
